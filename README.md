@@ -1,0 +1,1 @@
+sample api with mongo db and fastify
