@@ -1,0 +1,35 @@
+{
+  "name": "mongodb-fastify",
+  "version": "1.0.0",
+  "description": "sample api with mongodb, fastify, node js ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbkProgrammer/mongodb-fastify.git"
+  },
+  "keywords": [
+    "fastify",
+    "nodejs",
+    "mongodb",
+    "post",
+    "api"
+  ],
+  "author": "mbkProgrammer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbkProgrammer/mongodb-fastify/issues"
+  },
+  "homepage": "https://github.com/mbkProgrammer/mongodb-fastify#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "fastify": "^4.14.1",
+    "fastify-mongoose": "^0.3.0",
+    "mongoose": "^7.0.3"
+  }
+}
